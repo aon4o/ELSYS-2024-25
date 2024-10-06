@@ -1,0 +1,16 @@
+{
+    "name": "aon4o/composer_test",
+    "description": "Test Composer project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aon4o\\ComposerTest\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-mysql": "*",
+        "laravel/laravel": "^11.2"
+    }
+}

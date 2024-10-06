@@ -1,0 +1,23 @@
+{
+    "name": "aon4o/php_unit_example",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aleksandar.naydenov",
+            "email": "aleksandar.naydenov@delta.bg"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^3.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
